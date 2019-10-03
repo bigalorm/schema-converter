@@ -213,7 +213,7 @@ export class ${modelDef.globalId || modelName} ${classExtends} {`;
                             columns += 'any';
                             break;
                         case 'binary':
-                            columns += 'string';
+                            columns += 'Buffer';
                             break;
                         case 'array':
                         case 'string[]':
